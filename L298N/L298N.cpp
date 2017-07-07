@@ -11,16 +11,8 @@ Motors::Motors(int pinI1, int pinI2, int pinI3, int pinI4, ...) {
     int speedPinA = va_arg(speedPin, int);
     pinMode(speedPinA, OUTPUT);
 
-/*    if(speedPinA != NULL){
-	pinMode(speedPinA, OUTPUT);
-    }
-*/
     int speedPinB = va_arg(speedPin, int);
     pinMode(speedPinB, OUTPUT);
-
-    /*if(speedPinB != NULL){
-	pinMode(speedPinB, OUTPUT);
-    }*/
 
     va_end(speedPin);
 

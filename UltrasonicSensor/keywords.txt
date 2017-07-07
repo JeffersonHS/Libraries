@@ -1,0 +1,7 @@
+Motors		KEYWORD1
+GoingForward	KEYWORD2
+GoingBackward	KEYWORD2
+TurnLeft	KEYWORD2
+TurnRight	KEYWORD2
+Brake		KEYWORD2
+Off		KEYWORD2
