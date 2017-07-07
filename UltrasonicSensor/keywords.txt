@@ -1,7 +1,5 @@
-Motors		KEYWORD1
-GoingForward	KEYWORD2
-GoingBackward	KEYWORD2
-TurnLeft	KEYWORD2
-TurnRight	KEYWORD2
-Brake		KEYWORD2
-Off		KEYWORD2
+UltrasonicSensor		KEYWORD1
+ReadDistance	KEYWORD2
+
+SI	LITERAL1
+IMPERIAL	LITERAL1

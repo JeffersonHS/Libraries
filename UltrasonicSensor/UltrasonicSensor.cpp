@@ -1,4 +1,4 @@
-#include "L298N.h"
+#include "UltrasonicSensor.h"
 #include "Arduino.h"
 
 UltrasonicSensor::UltrasonicSensor(int echoPin, int triggerPin) {
