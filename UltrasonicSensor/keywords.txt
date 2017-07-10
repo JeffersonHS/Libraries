@@ -1,5 +1,6 @@
-UltrasonicSensor		KEYWORD1
-ReadDistance	KEYWORD2
+UltrasonicSensor	KEYWORD1
+ReadDistance		KEYWORD2
+DetectObstacle		KEYWORD2
 
-SI	LITERAL1
+SI		LITERAL1
 IMPERIAL	LITERAL1

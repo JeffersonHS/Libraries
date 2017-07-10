@@ -37,12 +37,12 @@ Motors::Motors(int pinI1, int pinI2, int pinI3, int pinI4, ...) {
     pinCWB = pinI4;
 }
 
-//Do the motors go forward.
+//Do the motors go forward. It's possible to put the time that you want the function works.
 void Motors::GoingForward(int Speed, ...){
     int timeA = 0;
     
     va_list time;
-    int timeA = va_arg(time, int);
+    timeA = va_arg(time, int);
     va_end(time);    
 
     analogWrite(_speedPinA, Speed);
@@ -60,12 +60,12 @@ void Motors::GoingForward(int Speed, ...){
     }
 }
 
-//Do the motors go backward.
+//Do the motors go backward. It's possible to put the time that you want the function works.
 void Motors::GoingBackward(int Speed, ...){
     int timeA = 0;
     
     va_list time;
-    int timeA = va_arg(time, int);
+    timeA = va_arg(time, int);
     va_end(time); 
 
     analogWrite(_speedPinA, Speed);
@@ -83,12 +83,12 @@ void Motors::GoingBackward(int Speed, ...){
     }
 }
 
-//Do the motors turn right.
+//Do the motors turn right. It's possible to put the time that you want the function works.
 void Motors::TurnRight(int Speed, ...){
     int timeA = 0;
     
     va_list time;
-    int timeA = va_arg(time, int);
+    timeA = va_arg(time, int);
     va_end(time); 
 
     analogWrite(_speedPinA, Speed);
@@ -106,7 +106,7 @@ void Motors::TurnRight(int Speed, ...){
     }
 }
 
-//Do the motors turn left.
+//Do the motors turn left. It's possible to put the time that you want the function works.
 void Motors::TurnLeft(int Speed, ...){
     int timeA = 0;
     
